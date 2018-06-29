@@ -1,0 +1,7 @@
+ul{list-style-type: none;}
+li{float:left; padding-left:3cm; font-weight: 600; font-size:2em;}
+h1{text-align: center;padding-top: 25%; font-weight: 400;}
+body{background-image: url(faceboook.jpg); background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+.jumbotron {
+  background: rgb(204, 204, 204, 0.2);
+}
