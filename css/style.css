@@ -7,5 +7,5 @@
 .position li{float:left;list-style-type:none;padding-left:150px;margin-top: 15px;font-size:2em;color:black;}
 .position li a{color:#585B61;}
 .text{padding-top: 20%;text-align: center;display: block;}
-h2{font-size:4em;font-weight:800;font-family: sans-serif;color:rgb(30, 33, 38);}
+h2{font-size:4em;font-weight:800;font-family:'Chela One', cursive;color:rgb(30, 33, 38);letter-spacing:.1rem;}
 h1{font-family:'Architects Daughter', cursive;letter-spacing:.1rem;}
