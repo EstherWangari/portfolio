@@ -1,29 +1,11 @@
-body{
-     background-image: url(../images/dev.jpeg);
-     background-size:cover;
-     background-position: center;
-   }
-button a{
-  font-size:3em;
-  color:#a94442;}
-h1, h2 {
-    font-size:4em;
-  font-weight:600;
-  font-family: sans-serif;
-  color:rgb(30, 33, 38);
-}
-li {font-weight: 500;
-   font-size:2.0em;
-   color: rgb(0, 153, 204);
- }
-nav {
-  background-color:rgb(255, 255, 255);
-}
-.intro{
-    float:center;
-    padding-top: 25%;}
-button {
-  border-radius: 50%;
-  text-align: center;
-  padding: 32px 16px;
-}
+.one{background-color:#7400F8;}
+.two{background-color:#FDFDFF;}
+.bodybg{background-color: black;}
+.both{margin-left: 10px;margin-right: 10px;}
+.one img{padding-top: 175px;padding-left: 60px;}
+.position{text-align: center;margin-top: 40px;}
+.position li{float:left;list-style-type:none;padding-left:150px;margin-top: 15px;font-size:2em;color:black;}
+.position li a{color:#585B61;}
+.text{padding-top: 20%;text-align: center;display: block;}
+h2{font-size:4em;font-weight:800;font-family: sans-serif;color:rgb(30, 33, 38);}
+h1{font-family:'Architects Daughter', cursive;letter-spacing:.1rem;}
