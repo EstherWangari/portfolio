@@ -1,7 +1,5 @@
 # Portfolio
 
-#### My developer portfolio,2018
-
 #### Developed By **WANGARI GIKONYO**
 
 ## Description
@@ -20,11 +18,11 @@ This is my Developer Portfolio.It contains a list of projects I have Been workin
 * Animated CSS
 
 ## Live Demo
-to view live demo [click here] (https://estherwangari.github.io/portfolio/)
+to view live demo <a href="https://estherwangari.github.io/portfolio/">click here</a>
 
 ## Support and Contact
-- [Github] (https://github.com/EstherWangari)
-- [Gmail] (mailto:wangarie0@gmail.com)
+* <a href="https://github.com/EstherWangari">Github<a/>
+* <a href="mailto:wangarie0@gmail.com">Gmail</a>
 
 
 ## LICENCE (c) (2018)
