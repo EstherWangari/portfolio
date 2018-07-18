@@ -11,6 +11,6 @@ ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
 .text h1{font-family:'Architects Daughter', cursive;letter-spacing:.1rem;}
 .text h2{font-size:4em;font-weight:800;font-family:'Chela One', cursive;color:rgb(30, 33, 38);letter-spacing:.1rem;}
 .text h3{font-family:'Poiret One', cursive;letter-spacing:.5rem;font-weight: 700;font-size:4em;}
-
+.name{padding-left: 50px;}
 .redish{border:dashed 1px red}
 .blueish{border:dashed 1px blue}
