@@ -1,10 +1,10 @@
 .wrap{height:100vh;background-color:#FDFDFF;overflow:hidden;}
-.bg{background-color:#e3e;width:100%;height:200%;position:absolute;top:-50%;left:-66%;transform:rotate(25deg)}
+.bg{background-color:#e3e;width:100%;height:200%;position:absolute;top:-50%;left:-66%;transform:rotate(24deg)}
 ul.menu{padding:0;margin:0;text-align:right;padding-top:15px;padding-right:320px;}
 ul.menu li{display:inline-block;padding-left: 50px;font-size:2em;color:black;}
 ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
 .text{padding-top:40%;display: block;line-height:5;}
-.wrap img{height:136%;position: absolute;bottom:-289px;81px;left:-314px;}
+.wrap img{height:70%;}
 .text a.btn{color:#fff;background-color:#48C8FA;padding-top: 10px;padding-bottom:10px;width:50%;border-radius:150px;border:none;margin-bottom:5px;font-size:1.5em;}
 .large{display:block;float:right;margin-top:-120px;}
 .large i{display: block;padding-bottom:20px;font-size: 2em;}
