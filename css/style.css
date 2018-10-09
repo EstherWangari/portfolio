@@ -1,5 +1,13 @@
+.red{border:1px solid red}
+body{background-color: black; color:white}
+.heading{padding-top:10px;padding-left:20px;padding-right:20px;font-size:2em;font-family: 'Niramit', sans-serif;}
+.bars{text-align:right;}
+#main{text-align: center;padding-top:5%;font-size:4em;font-family: 'Slabo 27px', serif;}
+#main span{color:#A3FF45;text-transform: lowercase;}
+#main button{background:green; border-radius:50px}
 .wrap{height:100vh;background-color:#FDFDFF;overflow:hidden;}
-.bg{background-color:#e3e;width:100%;height:200%;position:absolute;top:-50%;left:-66%;transform:rotate(24deg)}
+.bg{background-color:#e3e;width:100%;height:200%;position:absolute;top:-50%;left:-66%;transform:rotate(24deg);background-image: url(../images/web.jpg);background-size: cover;background-position: center;}
+.problem {text-align: center;color:#fff;font-size:60px;padding-top:200px;font-weight:700;text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;}
 ul.menu{padding:0;margin:0;text-align:right;padding-top:15px;padding-right:320px;}
 ul.menu li{display:inline-block;padding-left: 50px;font-size:2em;color:black;}
 ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
