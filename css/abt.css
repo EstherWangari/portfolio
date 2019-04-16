@@ -15,13 +15,14 @@ body{padding:20px 50px 20px 20px;}
   letter-spacing: 0.2px;
 }
 .links{
-  text-align: center;
-  margin-top: 25px;
+  margin-top: 25px
+}
+.tab{
   background: black;
-  color:white;
-  height: 50px;
+  height:50px;
   padding-top: 10px
 }
+.tab:hover{background-color:#999}
 .links a{
   color:white;
   padding-top: 20px;
@@ -29,8 +30,8 @@ body{padding:20px 50px 20px 20px;}
   font-size:20px;
   font-weight: 600
 }
-.second-child{border-left: 2px solid white; border-right: 2px solid white;height: 30px}
-.project{
+.second-child{border-left: 2px solid white; border-right: 2px solid white;}
+.project{.
   border:1px solid #eee;
   padding: 50px;
   font-family: 'Pacifico', cursive;
