@@ -15,7 +15,8 @@ body{padding:20px 50px 20px 20px;}
   letter-spacing: 0.2px;
 }
 .links{
-  margin-top: 25px
+  margin-top: 25px;
+  margin-bottom:25px
 }
 .tab{
   background: black;
@@ -31,10 +32,35 @@ body{padding:20px 50px 20px 20px;}
   font-weight: 600
 }
 .second-child{border-left: 2px solid white; border-right: 2px solid white;}
-.project{.
-  border:1px solid #eee;
-  padding: 50px;
-  font-family: 'Pacifico', cursive;
-  font-size: 25px
+.projects h3{
+  font-family: 'Fira Sans', sans-serif;
 }
+.projects p{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+.skills{
+  margin-top:20px;
+}
+.icons{
+  text-align: right;
+}
+.icons i {
+  font-size:40px;
+}
+.progress-bar{
+  height:50px;
+  padding-top: 15px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.progress{height:50px}
+.progress-bar{padding-top: 15px;font-weight: 600; color: white}
+.skills span{font-family: 'Notable', sans-serif;}
+.skills .one{background:#E23E39}
+.skills .three{background:#EAD54D}
+.skills .four{background: #58D3F3}
+.skills .five{background: #76AF5F}
 .p{  font-family: 'Pacifico', cursive;font-size:30px;text-align: center;}
