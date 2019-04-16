@@ -3,11 +3,11 @@
 #### Developed By **WANGARI GIKONYO**
 
 ## Description
-This is my Developer Portfolio.It contains a list of projects I have Been working on since I entered Moringa School and my contacts
+This is my Developer Portfolio.It contains a list of projects I have Been working on  and my contacts.
 
 ## Requirements
 * A phone or PC
-* Internet connectivit
+* Internet connectiviy
 * A browser of your choice.
 
 
