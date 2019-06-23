@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Esther</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/abt.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -9,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <div class ="row">
-      <div class='col-md-6 image'>
+      <div class='col-md-6 image animated fadeInUp'>
         <img src="images/Avi.jpg">
       </div>
-      <div class='col-md-6 about'>
+      <div class='col-md-6 about animated fadeInRight'>
         <h1>About Me</h1>
         <p>I'm Esther Wangari and I am a Front End Developer.
           I believe that the user interface is the face of the project and it has to look good and also simple
@@ -31,7 +35,7 @@
       </div>
 
       <div class='row projects'>
-        <div class='col-md-4'>
+        <div class='col-md-4 left'>
           <div class="thumbnail" id="projects">
             <img src="images/kittensc.png" alt="...">
             <div class="caption">
@@ -43,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 middle'>
           <div class="thumbnail">
             <img src="images/bulbsc.png" alt="...">
             <div class="caption">
@@ -55,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 right'>
           <div class="thumbnail">
             <img src="images/huggiessc.png" alt="...">
             <div class="caption">
@@ -69,7 +73,7 @@
         </div>
       </div>
         <div class='row projects'>
-        <div class='col-md-4'>
+        <div class='col-md-4 left'>
           <div class="thumbnail">
             <img src="images/conquersc.png" alt="...">
             <div class="caption">
@@ -81,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 middle'>
           <div class="thumbnail">
             <img src="images/tempsc.png" alt="...">
             <div class="caption">
@@ -93,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 right'>
           <div class="thumbnail">
             <img src="images/todocs.png" alt="...">
             <div class="caption">
@@ -174,8 +178,37 @@
      <p class='p'>Tel : +254719443532</p>
      <p class='p'>Mail : wangarie0@gmail.com</p>
     </div>
+    <div class='home'>
       <a href="index.html" class='btn btn-primary'>back home</a>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      ScrollReveal().reveal('.left',{
+        origin:'left',
+        duration:2000,
+        distance:'300px'
+      })
+      ScrollReveal().reveal('.middle',{
+        origin:'top',
+        duration:2000,
+        distance:'300px'
+      })
+      ScrollReveal().reveal('.right',{
+        origin:'right',
+        duration:2000,
+        distance:'300px'
+      })
+      ScrollReveal().reveal('#skills',{
+        origin:'left',
+        duration:2000,
+        distance:'300px'
+      })
+      ScrollReveal().reveal('#contacts',{
+        origin:'bottom',
+        duration:2000,
+        distance:'300px'
+      })
+    </script>
   </body>
 </html>

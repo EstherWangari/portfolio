@@ -23,3 +23,18 @@ ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
 .name{padding-left: 50px;}
 .redish{border:dashed 1px red}
 .blueish{border:dashed 1px blue}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background: red
+  }
+  #main{
+    font-size: 2em;
+    padding-top: 100px;
+  }
+
+  .second-child{
+    border-left: unset;
+    border-right: unset;
+  }
+}
