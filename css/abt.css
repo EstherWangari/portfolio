@@ -68,7 +68,8 @@ body{padding:20px 50px 20px 20px;}
 
 @media only screen and (max-width: 600px) {
   body{
-    padding: 20px
+    padding: 20px;
+
   }
   .second-child{
     border-left: unset;
@@ -78,10 +79,8 @@ body{padding:20px 50px 20px 20px;}
   }
   .about{
     padding: unset;
-    padding-left: 20px
-  }
-  .about{
-    margin-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px
   }
   .about p{
     font-size: 25px
@@ -89,7 +88,9 @@ body{padding:20px 50px 20px 20px;}
   .about h1{
     font-size: 35px
   }
-  .home .btn{
-    margin-left: 140px
+  .projects .col-md-4{
+    padding-left: unset;
+    padding-right: unset
   }
+
 }
