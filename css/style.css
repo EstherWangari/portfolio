@@ -1,5 +1,4 @@
-.red{border:1px solid red}
-body{background-color: black; color:white;}
+body{background-color: black; color:white; height:100vh}
 .heading{padding-top:10px;padding-left:20px;padding-right:20px;font-size:2em;font-family: 'Niramit', sans-serif;}
 #main{text-align: center;padding-top:2%;font-size:4em;font-family: 'Slabo 27px', serif;}
 #main span{color:#A3FF45;text-transform: lowercase;}
@@ -21,12 +20,10 @@ ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
 .text h2{font-size:4em;font-weight:800;font-family:'Chela One', cursive;color:rgb(30, 33, 38);letter-spacing:.1rem;}
 .text h3{font-family:'Poiret One', cursive;letter-spacing:.5rem;font-weight: 700;font-size:4em;}
 .name{padding-left: 50px;}
-.redish{border:dashed 1px red}
-.blueish{border:dashed 1px blue}
 
 @media only screen and (max-width: 600px) {
   body{
-    background: red
+    height:100vh
   }
   #main{
     font-size: 2em;
@@ -36,5 +33,8 @@ ul.menu a{color:#585B61;font-size:1.5em;font-weight:900;}
   .second-child{
     border-left: unset;
     border-right: unset;
+  }
+  script{
+    display: none
   }
 }

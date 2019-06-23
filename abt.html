@@ -16,10 +16,10 @@
   </head>
   <body>
     <div class ="row">
-      <div class='col-md-6 image animated fadeInUp'>
+      <div class='col-md-6 col-sm-12 image'>
         <img src="images/Avi.jpg">
       </div>
-      <div class='col-md-6 about animated fadeInRight'>
+      <div class='col-md-6 col-sm-12 about'>
         <h1>About Me</h1>
         <p>I'm Esther Wangari and I am a Front End Developer.
           I believe that the user interface is the face of the project and it has to look good and also simple
@@ -29,13 +29,13 @@
       </div>
     </div>
       <div class='row links'>
-        <a href='#projects'><div class='col-md-4 tab'>Projects</div></a>
-        <a href="#skills"><div class='col-md-4 tab second-child'>Technical Skills</div></a>
-        <a href="#contacts"><div class='col-md-4 tab'>Contacts</div></a>
+        <a href='#projects'><div class='col-md-4 col-sm-12 tab'>Projects</div></a>
+        <a href="#skills"><div class='col-md-4 tab col-sm-12 second-child'>Technical Skills</div></a>
+        <a href="#contacts"><div class='col-md-4 col-sm-12 tab'>Contacts</div></a>
       </div>
 
       <div class='row projects'>
-        <div class='col-md-4 left'>
+        <div class='col-md-4 col-sm-12 left'>
           <div class="thumbnail" id="projects">
             <img src="images/kittensc.png" alt="...">
             <div class="caption">
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4 middle'>
+        <div class='col-md-4 col sm-12 middle'>
           <div class="thumbnail">
             <img src="images/bulbsc.png" alt="...">
             <div class="caption">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4 right'>
+        <div class='col-md-4 col-sm-12 right'>
           <div class="thumbnail">
             <img src="images/huggiessc.png" alt="...">
             <div class="caption">
@@ -73,7 +73,7 @@
         </div>
       </div>
         <div class='row projects'>
-        <div class='col-md-4 left'>
+        <div class='col-md-4 col-sm-12 left'>
           <div class="thumbnail">
             <img src="images/conquersc.png" alt="...">
             <div class="caption">
@@ -85,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4 middle'>
+        <div class='col-md-4 col-sm-12 middle'>
           <div class="thumbnail">
             <img src="images/tempsc.png" alt="...">
             <div class="caption">
@@ -97,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4 right'>
+        <div class='col-md-4 col-sm-12 right'>
           <div class="thumbnail">
             <img src="images/todocs.png" alt="...">
             <div class="caption">
@@ -184,20 +184,29 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script>
+    ScrollReveal().reveal('.image', { mobile: false });
+    ScrollReveal().reveal('.about', { mobile: false });
+
+     ScrollReveal().reveal('.image',{
+       origin:'top',
+       duration:2000,
+       distance:'300px'
+     })
+     ScrollReveal().reveal('.about',{
+       origin:'left',
+       duration:2000,
+     })
       ScrollReveal().reveal('.left',{
         origin:'left',
         duration:2000,
-        distance:'300px'
       })
       ScrollReveal().reveal('.middle',{
         origin:'top',
         duration:2000,
-        distance:'300px'
       })
       ScrollReveal().reveal('.right',{
         origin:'right',
-        duration:2000,
-        distance:'300px'
+        duration:2000
       })
       ScrollReveal().reveal('#skills',{
         origin:'left',
@@ -207,7 +216,6 @@
       ScrollReveal().reveal('#contacts',{
         origin:'bottom',
         duration:2000,
-        distance:'300px'
       })
     </script>
   </body>
