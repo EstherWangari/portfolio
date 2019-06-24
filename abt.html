@@ -181,42 +181,49 @@
     <div class='home'>
       <a href="index.html" class='btn btn-primary'>back home</a>
     </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script>
-    ScrollReveal().reveal('.image', { mobile: false });
-    ScrollReveal().reveal('.about', { mobile: false });
-
-     ScrollReveal().reveal('.image',{
-       origin:'top',
+  <script>
+    ScrollReveal().reveal('.image',{
+       origin:'bottom',
        duration:2000,
        distance:'300px'
      })
+
      ScrollReveal().reveal('.about',{
-       origin:'left',
-       duration:2000,
-     })
-      ScrollReveal().reveal('.left',{
-        origin:'left',
-        duration:2000,
-      })
-      ScrollReveal().reveal('.middle',{
-        origin:'top',
-        duration:2000,
-      })
-      ScrollReveal().reveal('.right',{
         origin:'right',
-        duration:2000
+        duration:2000,
+        distance:'100px',
+        mobile:false
       })
+      ScrollReveal().reveal('.left',{
+          origin:'left',
+          duration:2000,
+          mobile:false
+        })
+      ScrollReveal().reveal('.middle',{
+          origin:'top',
+          duration:2000,
+          distance:'50px'
+        })
+      ScrollReveal().reveal('.right',{
+          origin:'right',
+          duration:2000,
+          distance:'50px',
+          mobile:false
+
+        })
       ScrollReveal().reveal('#skills',{
-        origin:'left',
-        duration:2000,
-        distance:'300px'
-      })
+          origin:'left',
+          duration:2000,
+          distance:'300px',
+        })
       ScrollReveal().reveal('#contacts',{
-        origin:'bottom',
-        duration:2000,
-      })
-    </script>
-  </body>
+          origin:'bottom',
+          duration:2000,
+          distance:'50px'
+        })
+  </script>
+</body>
 </html>
