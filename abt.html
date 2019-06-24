@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Esther</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/abt.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -9,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <div class ="row">
-      <div class='col-md-6 image'>
+      <div class='col-md-6 col-sm-12 image'>
         <img src="images/Avi.jpg">
       </div>
-      <div class='col-md-6 about'>
+      <div class='col-md-6 col-sm-12 about'>
         <h1>About Me</h1>
         <p>I'm Esther Wangari and I am a Front End Developer.
           I believe that the user interface is the face of the project and it has to look good and also simple
@@ -25,25 +29,25 @@
       </div>
     </div>
       <div class='row links'>
-        <a href='#projects'><div class='col-md-4 tab'>Projects</div></a>
-        <a href="#skills"><div class='col-md-4 tab second-child'>Technical Skills</div></a>
-        <a href="#contacts"><div class='col-md-4 tab'>Contacts</div></a>
+        <a href='#projects'><div class='col-md-4 col-sm-12 tab'>Projects</div></a>
+        <a href="#skills"><div class='col-md-4 tab col-sm-12 second-child'>Technical Skills</div></a>
+        <a href="#contacts"><div class='col-md-4 col-sm-12 tab'>Contacts</div></a>
       </div>
 
       <div class='row projects'>
-        <div class='col-md-4'>
+        <div class='col-md-4 col-sm-12 left'>
           <div class="thumbnail" id="projects">
-            <img src="images/kittensc.png" alt="...">
+            <img src="images/stepsc.png" alt="...">
             <div class="caption">
-              <h3>Kitten Studio</h3>
+              <h3>Step On Wear</h3>
               <p>
-                A Website where you can adopt cute kittens.
+                Online shop where you can buy baby clothes and shoes.
               </p>
-              <p><a href="https://estherwangari.github.io/kittenstudio/" class="btn btn-primary" role="button">View</a> <a href="https://github.com/EstherWangari/kittenstudio" class="btn btn-primary" role="button">Repository</a></p>
+              <p><a href="https://step-fashion.herokuapp.com/" class="btn btn-primary" role="button">View</a> <a href="https://step-fashion.herokuapp.com/" class="btn btn-primary" role="button">Repository</a></p>
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 col sm-12 middle'>
           <div class="thumbnail">
             <img src="images/bulbsc.png" alt="...">
             <div class="caption">
@@ -55,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 col-sm-12 right'>
           <div class="thumbnail">
             <img src="images/huggiessc.png" alt="...">
             <div class="caption">
@@ -69,7 +73,7 @@
         </div>
       </div>
         <div class='row projects'>
-        <div class='col-md-4'>
+        <div class='col-md-4 col-sm-12 left'>
           <div class="thumbnail">
             <img src="images/conquersc.png" alt="...">
             <div class="caption">
@@ -81,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 col-sm-12 middle'>
           <div class="thumbnail">
             <img src="images/tempsc.png" alt="...">
             <div class="caption">
@@ -93,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 col-sm-12 right'>
           <div class="thumbnail">
             <img src="images/todocs.png" alt="...">
             <div class="caption">
@@ -174,8 +178,52 @@
      <p class='p'>Tel : +254719443532</p>
      <p class='p'>Mail : wangarie0@gmail.com</p>
     </div>
+    <div class='home'>
       <a href="index.html" class='btn btn-primary'>back home</a>
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+  <script>
+    ScrollReveal().reveal('.image',{
+       origin:'bottom',
+       duration:2000,
+       distance:'300px'
+     })
+
+     ScrollReveal().reveal('.about',{
+        origin:'right',
+        duration:2000,
+        distance:'100px',
+        mobile:false
+      })
+      ScrollReveal().reveal('.left',{
+          origin:'left',
+          duration:2000,
+          mobile:false
+        })
+      ScrollReveal().reveal('.middle',{
+          origin:'top',
+          duration:2000,
+          distance:'50px'
+        })
+      ScrollReveal().reveal('.right',{
+          origin:'right',
+          duration:2000,
+          distance:'50px',
+          mobile:false
+
+        })
+      ScrollReveal().reveal('#skills',{
+          origin:'left',
+          duration:2000,
+          distance:'300px',
+        })
+      ScrollReveal().reveal('#contacts',{
+          origin:'bottom',
+          duration:2000,
+          distance:'50px'
+        })
+  </script>
+</body>
 </html>
