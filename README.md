@@ -18,10 +18,10 @@ This is my Developer Portfolio.It contains a list of projects I have Been workin
 * Animated CSS
 
 ## Live Demo
-to view live demo <a href="https://estherwangari.github.io/portfolio/">click here</a>
+to view live demo <a href="https://wangarigikonyo.github.io/portfolio/">click here</a>
 
 ## Support and Contact
-* <a href="https://github.com/EstherWangari">Github<a/>
+* <a href="https://github.com/WangariGikonyo">Github<a/>
 * <a href="mailto:wangarie0@gmail.com">Gmail</a>
 
 
